@@ -92,8 +92,8 @@ we will run the following commands
 
 ```sh
 $ docker login
-$ docker tag <local docker image name> <your docker hub repository>:<version>
-$ docker push <your docker hub repository>:<version>
+$ docker tag <local docker image name> <your docker hub repository>:<tag name>
+$ docker push <your docker hub repository>:<tag name>
 ```
 
 we tagged the local image with the docker repo in our hub
