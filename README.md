@@ -3,7 +3,9 @@
 #We have initiatd the npm in this folder, which created a number of files
 
 $ npm init
+
 $ npm install
+
 $ npm install express
 
 #we created an app.js which is the main javascript file that has the code to start the web server and take a request at "/"
@@ -27,15 +29,23 @@ $ curl http://localhost
 #I will create a new repository in my personal github
 
 #IMPORTANT: You need to create your own git account and you may need to login to your github account from your terminal before you are able to run your commands.
+
 $ git init
+
 $ git add .
+
 $ git commit -m "first commit..."
+
 $ git remote add origin https://github.com/vdonthireddy/AppInAKS.git
+
 $ git push -u origin master
 
 #You have seen all the files and folders stored in the git. Let's do one final git commit. After the first time, you can just use the following commands for any further git pushes
+
 $ git add .
+
 $ git commit -m "<your comments>"
+
 $ git push
 
 #Let's create a docker image of the nodejs app we just created.
@@ -60,11 +70,13 @@ $ git push
 
 #Let's check to see if the image is created by running the following command
 
-docker images
+$ docker images
 
 #Let's test this local docker image by creating an instance of it and running it.
 
-#docker ps command will show us the running instances. as you see there are no running instances
+#following command will show us the running instances. as you see there are no running instances
+
+$ docker ps
 
 #We have done a port binding between the port where the webserver is running and port that I (as a user) will pass through my client (e.g. browser)
 
