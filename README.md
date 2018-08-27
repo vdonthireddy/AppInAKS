@@ -9,3 +9,7 @@
 
 #Let's store our application in github
 #I will create a new repository in my person github
+
+#IMPORTANT: You need to create your own git account and you may need to login to your github account from your terminal before you are able to run your commands. I am sure you know that :-)
+
+#You have seen all the files and folders stored in the git. Let's do one final git commit 
