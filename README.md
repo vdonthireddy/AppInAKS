@@ -12,9 +12,7 @@ we created an app.js which is the main javascript file that has the code to star
 
 let's start the web server by running "npm start"
 
-```sh
-$ npm start
-```
+`$ npm start`
 
 Let's open a web browser to test our app
 
