@@ -90,11 +90,11 @@ In this video, let's store our local docker image into the docker hub
 
 we will run the following commands
 
-```sh
+`
 $ docker login
 $ docker tag vjnodeapp vdonthireddy/appinaks:1.0
 $ docker push vdonthireddy/appinaks:1.0
-```
+`
 
 we tagged the local image with the docker repo in our hub
 
