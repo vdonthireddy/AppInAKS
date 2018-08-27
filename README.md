@@ -38,7 +38,7 @@ IMPORTANT: You need to create your own git account and you may need to login to 
 $ git init
 $ git add .
 $ git commit -m "first commit..."
-$ git remote add origin https://github.com/vdonthireddy/AppInAKS.git
+$ git remote add origin <your git repo>
 $ git push -u origin master
 ```
 
@@ -92,8 +92,8 @@ we will run the following commands
 
 ```sh
 $ docker login
-$ docker tag vjnodeapp vdonthireddy/appinaks:1.0
-$ docker push vdonthireddy/appinaks:1.0
+$ docker tag <local docker image name> <your docker hub repository>:<version>
+$ docker push <your docker hub repository>:<version>
 ```
 
 we tagged the local image with the docker repo in our hub
