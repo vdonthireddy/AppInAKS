@@ -51,3 +51,15 @@ docker images
 #docker ps command will show us the running instances. as you see there are no running instances
 
 #We have done a port binding between the port where the webserver is running and port that I (as a user) will pass through my client (e.g. browser)
+
+#In this video, let's store our local docker image into the docker hub
+
+#we will run the following commands
+
+#we tagged the local image with the docker repo in our hub
+
+#and ran the command (docker push) to store it in the hub
+
+#Let's go back to browser and see if we have any images with 1.0 tag available in the hub
+
+
