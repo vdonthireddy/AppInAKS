@@ -7,10 +7,10 @@ spec:
   template:
     metadata:
       labels:
-        app: vjapp
+        app: vjapp-pod
     spec:
       containers:
-       - name: vjapp
+       - name: vjapp-container
          image: vdonthireddy/appinaks:1.0
          ports:
           - containerPort: 80
@@ -26,4 +26,4 @@ spec:
   ports:
   - port: 80
   selector:
-    app: vjapp
+    app: vjapp-pod
