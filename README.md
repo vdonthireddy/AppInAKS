@@ -70,6 +70,10 @@ we have created a Dockerfile. In this file, we provided instructions to docker e
 
 Let's create the docker image using the Dockerfile (please note that there is no file extension for this file)
 
+```sh
+$ docker build -t <docker image name> .
+```
+
 Let's check to see if the image is created by running the following command
 
 ```sh
