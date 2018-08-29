@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
        - name: vjapp-container
-         image: vdonthireddy/appinaks:1.0
+         image: vdonthireddy/appinaks:3.0
          ports:
           - containerPort: 80
 ---
